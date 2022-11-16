@@ -9,9 +9,9 @@ Before you can run this client, you will need to be running the server side whic
 ## Final Product
 
 ### Showing server side game window and client side input/output.
-<img width="583" alt="Screenshot 2022-11-16 at 3 15 32 PM" src="https://user-images.githubusercontent.com/112522559/202315397-097d2b0f-5b03-4a8e-ad83-8dc379b8b864.png">
+<img width="581" alt="Screenshot 2022-11-16 at 3 15 38 PM" src="https://user-images.githubusercontent.com/112522559/202317027-ae65150a-ea55-4dd5-b000-8d88e012b512.png">
  
-<img width="587" alt="Screenshot 2022-11-16 at 3 15 38 PM" src="https://user-images.githubusercontent.com/112522559/202315860-5a9efdbb-54f7-4fdb-a5f8-9d70e33c2cd5.png">
+<img width="576" alt="Screenshot 2022-11-16 at 3 15 32 PM" src="https://user-images.githubusercontent.com/112522559/202317115-46bb5402-09aa-4073-a314-c45f1105262c.png">
 
 
 ## Getting Started
