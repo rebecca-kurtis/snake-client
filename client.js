@@ -2,7 +2,7 @@ const net = require("net");
 
 let timer = 0;
 
-const connect = function () {
+const connect = function() {
   const conn = net.createConnection({
     host: 'localhost',// IP address here,
     port: 50541,// PORT number here,
@@ -31,7 +31,7 @@ const connect = function () {
   // function stopMove() {
   //   clearInterval(timer === 200);
   // }
-  
+
   conn.on('data', () => {
     console.log('you ded cuz you idled');
   });
