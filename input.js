@@ -1,8 +1,7 @@
 let connection;
 const { stdin } = require("process");
-// setup interface to handle user input from stdin
 
-const setupInput = function (conn) {
+const setupInput = function(conn) {
   connection = conn;
   const stdin = process.stdin;
   stdin.setRawMode(true);
@@ -12,8 +11,7 @@ const setupInput = function (conn) {
   return stdin;
 };
 
-const handleUserInput = function (key) {
-  // your code here
+const handleUserInput = function(key) {
 
   if (key === '\u0003') {
     process.exit();
@@ -46,7 +44,6 @@ const handleUserInput = function (key) {
     connection.write('Say: So long!');
   }
 };
-
 
 module.exports = {
   setupInput
