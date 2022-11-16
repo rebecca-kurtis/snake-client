@@ -1,5 +1,7 @@
 const net = require("net");
 
+let timer = 0;
+
 const connect = function () {
   const conn = net.createConnection({
     host: 'localhost',// IP address here,
@@ -11,8 +13,24 @@ const connect = function () {
   });
 
   conn.on('connect', () => {
-    console.log('Name: RK');
+    conn.write('Name: RK');
   });
+
+  // conn.on('connect', () => {
+  //     timer += 50;
+  //     setInterval(() => {
+  //       conn.write('Move: up');
+  //     }, timer );
+  //     //  timer += 50;
+  //     // conn.write('Move: up')
+  //   // conn.write('Move: down')
+  //   // conn.write('Move: right')
+  //   // conn.write('Move: left')
+  // });
+
+  // function stopMove() {
+  //   clearInterval(timer === 200);
+  // }
   
   conn.on('data', () => {
     console.log('you ded cuz you idled');
